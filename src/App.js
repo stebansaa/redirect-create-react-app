@@ -2,6 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const handleClick = () => {
+    window.location.href = 'http://frogge.finance';
+  };
+
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +21,7 @@ function App() {
         >
           Learn React
         </a>
+        <button onClick={handleClick}>Go to Frogge.finance</button>
       </header>
     </div>
   );
