@@ -16,6 +16,7 @@ function App() {
       </div>
       <div>
         <p style={{ marginTop: '20px', marginBottom: '20px' }}>
+          <br /> <br /> <br /> <br />
           Learn more about our new brand on our Telegram group:
           <br />
           <br style={{ marginTop: '10px' }} />
