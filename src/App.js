@@ -28,7 +28,7 @@ function App() {
               }}
               onClick={handleClick}
             >
-              Click here to go to our new website: Frogge.finance
+              Click here to go to our new website: http://frogge.finance
             </button>
           </div>
         </div>
