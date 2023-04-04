@@ -6,12 +6,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-          <img
-            src="https://github.com/evm20/media/blob/main/logotransparent.png?raw=true"
-            alt="logo"
-            style={{ width: '200px', height: 'auto', marginRight: '20px' }}
-          />
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+          <div style={{ display: 'flex', alignItems: 'center', marginRight: '20px' }}>
+            <img
+              src="https://github.com/evm20/media/blob/main/logotransparent.png?raw=true"
+              alt="logo"
+              style={{ width: '200px', height: 'auto' }}
+            />
+          </div>
           <div>
             <p>
               Learn more about our new brand on our Telegram group:
