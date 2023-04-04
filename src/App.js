@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App" style={{ height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
       <div style={{ display: 'flex', alignItems: 'center', marginRight: '20px' }}>
-         <br /> <br /> <br />
+         <br /> <br /> <br /> <br /> <br />
         <img
           src="https://github.com/evm20/media/blob/main/logotransparent.png?raw=true"
           alt="logo"
