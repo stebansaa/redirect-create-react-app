@@ -1,30 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect } from 'react';
 
 function App() {
-  const handleClick = () => {
+  useEffect(() => {
     window.location.href = 'http://frogge.finance';
-  };
+  }, []);
 
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <button onClick={handleClick}>Go to Frogge.finance</button>
-      </header>
-    </div>
-  );
+  return null;
 }
 
 export default App;
