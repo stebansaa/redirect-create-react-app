@@ -21,7 +21,7 @@ function App() {
           Learn more about our new brand on our Telegram group:
           <br />
           <br style={{ marginTop: '10px' }} />
-          <a href="https://t.me/jointrustswap/1/48470">https://t.me/joinfroggefinance/48470</a>
+          <a href="https://t.me/joinfroggefinance/48470">https://t.me/joinfroggefinance/48470</a>
         </p>
         <button
           style={{
